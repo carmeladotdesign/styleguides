@@ -7,7 +7,7 @@ body {
   }
 
 
-
+/* Headers */
 .h1-style {
     font-family: 'Lexend', sans-serif;
     font-style: normal;
@@ -61,10 +61,38 @@ body {
     line-height: 16px;
 }
 
+/* Buttons */
+button,
+.btn {
+  display: inline-block;
+  padding: 0 16px;
+  background-color: #FFB800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  line-height: 2;
+  font-family: 'Lexent', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+}
 
-/* ---> UTILITIES */
+button:hover,
+.btn:hover {
+  background-color: #ffce51;
+}
 
-/* Colors */
+.btn--secondary {
+  background-color: #c8c8c8;
+  color: #1e1e1e;
+}
+.btn--secondary:hover {
+  background-color: #efefef;
+}
+
+
+/* Colours */
 .colour-yellow {
     color: #FFB800;
   }
